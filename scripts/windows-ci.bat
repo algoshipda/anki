@@ -1,0 +1,3 @@
+set ARGS="--output_user_root=\bazel\anki --output_base=\bazel\anki\base"
+\bazel\bazel %ARGS% build ... -k # rollup will fail the first time
+\bazel\bazel %ARGS% test ...
